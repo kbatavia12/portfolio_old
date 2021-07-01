@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    display: flex;
+    padding: 2% 0;
+    box-sizing: border-box;
+    width: 85%;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+    flex: .1;
+    padding: 0.5em;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.header__contact > p {
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 5%;
+}
+
+.header__contact:hover {
+    background: #eee;
+}
